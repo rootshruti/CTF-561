@@ -1,0 +1,2 @@
+you can now netcat to the ubuntu using port 4444. you should know the IP of Ubuntu by now ! 
+The flag is hidden on ubuntu's home directory

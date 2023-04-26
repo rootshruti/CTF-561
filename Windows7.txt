@@ -1,0 +1,2 @@
+you can now netcat to the Windows7 using port 3333. you should know the IP of Windows7 by now ! 
+The flag is hidden on Windows7's home directory

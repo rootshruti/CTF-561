@@ -1,0 +1,2 @@
+you can now netcat to the WindowsXP using port 3333. you should know the IP of WindowsXP by now ! 
+The flag is hidden on WindowsXP's home directory

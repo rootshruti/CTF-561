@@ -1,0 +1,2 @@
+you can now netcat to the ubuntu using port 3333. you should know the IP of Ubuntu by now ! 
+The flag is hidden on ubuntu's root directory
