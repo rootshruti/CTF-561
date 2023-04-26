@@ -1,0 +1,30 @@
+services:
+  docker1:
+    build:
+      context: ./CTF-Kali
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+      - "2222:22"
+    networks:
+      my-network:
+        ipv4_address: 192.168.80.9
+      
+      
+  docker2:
+    build:
+      context: ./CTF-ubuntu
+      dockerfile: Dockerfile
+    ports:
+      - "3333:3333"
+    networks:
+      my-network:
+        ipv4_address: 192.168.80.11
+
+networks:
+  my-network:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 192.168.80.0/24
+         gateway: 192.168.80.1
