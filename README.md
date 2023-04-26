@@ -1,7 +1,7 @@
 # CTF-561
 For cs561 course project requirement
 
-Requirements : We need to have one folder containing 3 items:
+Requirements : We need to have one folder named "CTF" containing 3 items:
 1. docker-compose.yml
 2. CTF-Kali (a sub-folder that contains all the files in branch CTF-Kali)
 3. CTF-ubuntu (a subfolder that contains all the files in branch CTF-ubuntu)
