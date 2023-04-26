@@ -1,0 +1,4 @@
+Step1: Find the credentials to login to SSH on webpage (port 80) of the container1
+Step2: After you find the credentials and sucessfully login via ssh to docker container1, learn the IP and network of that.
+Step3: Find the other PCs in same subnet.
+Step4: search for the file name which is after the OS of the other PC and that has the next instructions to catch the flag.
